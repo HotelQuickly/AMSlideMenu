@@ -1070,4 +1070,15 @@ static NSMutableArray *allInstances;
     }
     /********************************************* DARKNESS EFFECT *******************************************************/
 }
+
+-(void)removePanGesture
+{
+    [self.panGesture removeTarget:self action:nil];
+}
+
+-(void)addPanGesture
+{
+    [self.panGesture addTarget:self action:@selector(handlePanGesture:)];
+}
+
 @end

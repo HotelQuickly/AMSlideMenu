@@ -235,4 +235,9 @@ typedef enum {
  * @param indexPath destination ViewController's indexPath in menu
  */
 - (void)openContentViewControllerForMenu:(AMSlideMenu)menu atIndexPath:(NSIndexPath *)indexPath;
+
+-(void)addPanGesture;
+
+-(void)removePanGesture;
+
 @end
