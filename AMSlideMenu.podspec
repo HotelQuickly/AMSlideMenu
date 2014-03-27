@@ -18,7 +18,7 @@ Works for both iPhone and iPad.
                     DESC
   s.homepage     = "https://github.com/kazekim/AMSlideMenu"
   s.license      = 'MIT'
-  s.author       = { “Jirawat “Harnsiriwatanakit => “jirawat.h@kazekim.com" }
+  s.author       = { "Jirawat Harnsiriwatanakit" => "jirawat.h@kazekim.com" }
   s.source_files = 'AMSlideMenu/*'
   s.requires_arc = true
 end
